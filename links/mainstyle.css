@@ -1,0 +1,14 @@
+*{margin:0; padding: 0}
+body{
+  font-family: helvetica, times;
+  background-color: #ebebeb;
+}
+#header{
+  background-color: black;
+  height: 120px;
+  width: 100%;
+}
+
+#nameArea{
+  color: #ebebeb;
+}
