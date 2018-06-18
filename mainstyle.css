@@ -29,6 +29,11 @@ header{
     text-decoration: none;
 }
 
+.namearea a{
+  color: #ebebeb;
+  text-decoration: none;
+}
+
 #nav{
   margin-right: 60px;
 }
@@ -36,10 +41,6 @@ header{
 #nav a{
   color: #ebebeb;
   text-decoration: none;
-}
-
-#nav ul{
-
 }
 
 #nav li{
@@ -52,4 +53,25 @@ header{
   list-style-type: none;
   border: 2px solid silver;
   border-radius: 5px;
+}
+
+#nav li:hover{
+  background-color: #16a085;
+}
+
+.titlecontainer{
+  height: 70px;
+  width: 100%;
+  background-color: #16a085;
+}
+
+.titlecontainer h2{
+  text-align: center;
+  padding-top: 18px;
+  color: #ebebeb;
+  font-size: 32px;
+}
+
+.titlecontainer:hover{
+  cursor: default;
 }
